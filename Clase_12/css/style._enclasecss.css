@@ -163,13 +163,15 @@ nav ul li a:hover::before {
     border-right: 10px solid rgb(66, 139, 202);
     border-bottom: 10px solid rgb(202, 66, 129);
     border-left: 10px solid rgba(66, 139, 202, .2);
-    animation: rueda 3s infinite;
-
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: .8s;
+    animation-name: rueda;
 }
 
-@keyframe rueda {
+@keyframes rueda {
     0% {
-        transform: rotate(0turn)
+        transform: rotate(0deg)
     }
 
     100% {
