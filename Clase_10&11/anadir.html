@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Login </title>
+</head>
+
+<body>
+    <header>
+        <div class="box_intro"> <span class="box_intro_text">Descuento 20% en todos los productos!</span></div>
+        <div class="box_nombreTiendaGeneral">
+            <p class="box_logoTienda"></p><span class="box_nombreTienda_text">Nombre
+                tienda</span>
+        </div>
+        <nav class="box_card_nav">
+            <ul class="nav">
+                <li>Contacto</li>
+                <li>Registrarme </li>
+                <li>Ingresar</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="box_principal">
+            <h1 class="titulo_form">Añadí tu super!</h1>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+
+            <form action="">
+                <div class="columna_iz">
+                    <div class="box_input box_input_nombre">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" type="text" name="nombre" />
+                    </div>
+                    <div class="box_input box_input_fecha">
+                        <label for="fecha">Fecha</label>
+                        <input id="fecha" type="date" name="fecha" min="1950-01-01" max="2030-01-01" />
+                    </div>
+                    <div class="box_input box_input_descripcion">
+                        <textarea name="descripcion" class="descripcion" placeholder="Descripción" rows="10">
+                    Descripción</textarea>
+                    </div>
+                </div>
+                <div class="columna_der">
+                    <div class="box_input box_input_especie">
+                        <label for="especie">Especie</label>
+                        <select name="especie" id="especie">
+                            <option value="0">Selección</option>
+                            <option value="1">Cyborg</option>
+                            <option value="2">Alien</option>
+                            <option value="3">Mutante</option>
+                        </select>
+                    </div>
+
+                    <div class="box_input box_input_foto">
+                        <label for="foto">Agregar Foto</label>
+                        <input id="foto" type="file" name="foto" />
+                    </div>
+
+                    <div class="box_input box_input_poderes">
+                        <label for="poderes">Poderes</label>
+                        <fieldset>
+                            <input id="poderes1" type="checkbox" name="poderes" value="Volar" />
+                            <label for="poderes1">Volar</label>
+                            <input id="poderes2" type="checkbox" name="poderes" value="SuperInteligencia" />
+                            <label for="poderes2">SuperInteligencia</label>
+                            <input id="poderes3" type="checkbox" name="poderes" value="Vista de rashoo láser" />
+                            <label for="poderes3">Vista de rashoo láser</label>
+                            <input id="poderes4" type="checkbox" name="poderes" value="Billetera gorda" />
+                            <label for="poderes4">Billetera gorda</label>
+                        </fieldset>
+                    </div>
+
+                    <div class="box_input box_input_tipo">
+                        <label>Tipo de personaje</label><br />
+                        <input type="radio" id="heroe" name="tipo" value="heroe" />
+                        <label for="heroe">Héroe/ Heroina</label> <br />
+                        <input type="radio" id="villano" name="tipo" value="villano" />
+                        <label for="villano">Villano/ Villana</label>
+                    </div>
+                </div>
+                <div class="box_bottom">
+                    <button type="submit">Añadir</button>
+                </div>
+            </form>
+        </div>
+
+
+
+    </main>
+
+    <footer>
+        <div class="box_footer">
+            <p class="box_footer_text">Todos los derechos reservados a FRONT END 1</p>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>

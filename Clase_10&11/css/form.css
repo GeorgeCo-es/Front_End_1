@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Karla:wght@300&family=Roboto:ital@1&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+.caja1 {
+    height: 25px;
+    width: 100%;
+    background-color: #1cd1b0;
+    color: black;
+    text-align: start;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.caja2 {
+    height: 55px;
+    background-color: #00669f;
+    color: white;
+    font-size: 30px;
+    text-align: start;
+    padding-right: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+#IMG {
+    height: 50px;
+}
+
+.caja3 {
+    height: 30px;
+    background-color: #001d2d;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.2);
+    color: white;
+    padding-top: 10px;
+    padding-right: 30px;
+    text-align: end;
+    word-spacing: 30px;
+}
+
+.box_principal {
+    width: 80%;
+    background-color: #00669f;
+    color: white;
+    text-align: center;
+    margin: 2.5rem auto;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.box_input {
+    margin: 1rem;
+}
+
+footer {
+    height: 50px;
+    background-color: #00669f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.derechos {
+    color: #fff9f9;
+    text-align: center;
+}
+
+.columna_iz {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 30%;
+}
+
+.columna_der {
+    display: inline-block;
+    width: 45%;
+    position: relative;
+    right: 0;
+}
+
+body,
+footer {
+    margin: 0;
+}
+
+.box_intro {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background-color: #1CD1B0;
+    margin: 0;
+}
+
+.box_intro_text {
+    width: 354px;
+    height: auto;
+    position: relative;
+    left: 20px;
+    top: 8px;
+    bottom: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14 px;
+    color: #000000;
+}
+
+.box_nombreTiendaGeneral {
+    position: sticky;
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+}
+
+.box_logoTienda {
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+    display: inline-block;
+    color: blueviolet;
+    background-image: url(../img/logo_tienda.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 60px;
+    width: 100%;
+}
+
+.box_nombreTienda_text {
+    font-size: 35px;
+    position: absolute;
+    color: white;
+    left: 110px;
+    top: 15px;
+    bottom: 0px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.box_footer_text {
+    color: #FFF9F9;
+    text-align: center;
+    top: 17px;
+}
+
+.box_footer_logoGithub {
+    width: 160px;
+    height: 44px;
+    background-image: url(../img/github.png);
+    background-size: 100%;
+    position: absolute;
+    bottom: 1px;
+    right: 50px;
+}
+
+.box_intro {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background-color: #1CD1B0;
+}
+
+.box_intro_text {
+    width: 354px;
+    height: auto;
+    position: relative;
+    left: 20px;
+    top: 8px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14 px;
+    color: #000000;
+}
+
+.box_card_super {
+    position: sticky;
+    background-color: #00669F;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+}
+
+.box_card_nav {
+    display: flex;
+    position: relative;
+    top: 0px;
+    background-color: #001D2D;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    justify-content: flex-end;
+
+}
+
+.nav {
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+}
+
+li {
+    position: relative;
+    top: 5px;
+    right: 0px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    font-size: 16px;
+    color: #FFF;
+    display: inline;
+    text-align: center;
+
+}

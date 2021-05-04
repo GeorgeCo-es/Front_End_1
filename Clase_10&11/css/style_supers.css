@@ -214,10 +214,10 @@ li {
     height: 580px;
 }
 
-.card-superheroe-fondo-personaje_MM {
-    background-image: url(../img/bg-wonderw.jpg);
+.card-superheroe-fondo-personaje_HQ {
+    background-image: url(../img/bg-harleyq1.png);
     background-position: center;
-    background-size: 180%;
+    background-size: 100%;
     border-radius: 50px 50px 0px 0px;
     width: 325px;
     height: 200px;
@@ -225,12 +225,12 @@ li {
     z-index: 1;
 }
 
-.card-superheroe-foto-perfil-personaje_MM {
-    background-image: url(../img/wonderw.jpg);
+.card-superheroe-foto-perfil-personaje_HQ {
+    background-image: url(../img/harleyq.png);
     background-position: center;
-    background-position-x: -70px;
-    background-position-y: -10px;
-    background-size: 210%;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: contain;
     text-align: center;
     width: 120px;
     height: 120px;
@@ -338,20 +338,23 @@ footer {
     font-style: normal;
     font-weight: normal;
 }
-
 .box_footer {
     position: absolute;
-    bottom: -110px;
+    bottom: -170px;
     width: 100%;
     height: 50px;
     background-color: #00669F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .box_footer_text {
     color: #FFF9F9;
     text-align: center;
-    position: relative;
     top: 17px;
 }
 
