@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+
+}
+
 .box_formulario {
     position: relative;
     left: 450px;
@@ -61,6 +66,8 @@
     border: solid #1CD1B0 0px;
     position: relative;
     top: 20px;
+    text-decoration: none;
+
 }
 
 .box_formulario_login_boton {

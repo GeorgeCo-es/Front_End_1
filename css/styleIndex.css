@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --color1: #0061a8;
+    --color2: #2978b5;
+    --color3: #8ab6d6;
+    --color4: #fbe0c4;
+
+}
+
+body {
+    margin: 0;
+}
+
+.box_intro {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background-color: var(--color2);
+}
+
+.box_intro_text {
+    width: 354px;
+    height: auto;
+    position: relative;
+    left: 20px;
+    top: 8px;
+    bottom: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14 px;
+    color: #000000;
+}
+
+.box_nombreGeneral {
+    position: sticky;
+    background-color: var(--color1);
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+}
+
+h2,
+h3 {
+    text-align: center;
+    line-height: 7px;
+
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'lato';
+
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'lato';
+    position: relative;
+    top: 5px;
+}
+
+.box_nombre {
+    background-image: url(../img/bg-batman.jpg);
+    background-position: center;
+    background-size: 180%;
+    border-radius: 50px 50px 0px 0px;
+    width: 325px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.botton_clases {
+    width: 100px;
+    height: 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--color4);
+    text-decoration: none;
+    text-align: center;
+    background: var(--color2);
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    border: solid var(--color2);
+    position: relative;
+    top: 20px;
+}
+
+.box_nombre_text {
+    font-size: 35px;
+    position: relative;
+    color: white;
+    left: 20px;
+    top: 10px;
+    bottom: 0px;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.box_footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    right: 0;
+    background-color: var(--color2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box_footer_text {
+    color: var(--color4);
+    text-align: center;
+    position: relative;
+    top: 5px;
+}

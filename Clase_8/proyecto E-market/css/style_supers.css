@@ -3,10 +3,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    margin: 0;
-}
-
 .box_intro {
     position: relative;
     width: 100%;
@@ -52,13 +48,22 @@ body {
 
 }
 
+.cajaSupers {
+    display: inline-block;
+    text-align: center;
+    width: 90%;
+    height: 70px;
+    position: relative;
+    padding: 0px;
+}
 
 .card-superheroe {
+    display: inline-block;
     position: relative;
     background-color: #F3F3F3;
-    margin: 5%;
-    left: 25%;
-    bottom: 40px;
+    margin: 0px;
+    left: 5%;
+    bottom: 0px;
     border-radius: 50px 50px 0px 0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     width: 325px;
@@ -181,6 +186,20 @@ body {
     text-align: center;
     position: relative;
     bottom: 42px;
+}
+
+.card-superheroe_MM {
+    display: inline-block;
+    position: relative;
+    background-color: #F3F3F3;
+    margin: 1%;
+    top: 30px;
+    left: 5%;
+    bottom: 0px;
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 325px;
+    height: 580px;
 }
 
 .card-superheroe-fondo-personaje_MM {

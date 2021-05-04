@@ -40,27 +40,29 @@ body {
     z-index: 10;
 }
 
-.box_nombreTienda {
-    background-image: url(../img/bg-batman.jpg);
-    background-position: center;
-    background-size: 180%;
-    border-radius: 50px 50px 0px 0px;
-    width: 325px;
-    height: 200px;
+.box_logoTienda {
     position: relative;
-    z-index: 1;
+    bottom: 15px;
+    left: 15px;
+    display: inline-block;
+    color: blueviolet;
+    background-image: url(../img/logo_tienda.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    height: 60px;
+    width: 100%;
 }
 
 .box_nombreTienda_text {
     font-size: 35px;
-    position: relative;
+    position: absolute;
     color: white;
-    left: 20px;
-    top: 10px;
+    left: 110px;
+    top: 15px;
     bottom: 0px;
     font-style: normal;
     font-weight: normal;
-
 }
 
 .box_footer {
