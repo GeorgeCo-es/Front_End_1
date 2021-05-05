@@ -5,12 +5,18 @@
     box-sizing: border-box;
 }
 
+body {
+    display: block
+}
+
 .box_formulario {
-    position: relative;
-    left: 450px;
-    top: 100px;
     width: 400px;
     height: 400px;
+    position: relative;
+    left: 450px;
+    right: 0;
+    top: 100px;
+
 
 }
 

@@ -3,8 +3,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body {
-    margin: 0;
+body,
+footer {
+    margin: 0px;
 }
 
 a {
@@ -19,10 +20,11 @@ a {
     left: 0px;
     top: 0px;
     background-color: #1CD1B0;
+    margin: 0;
 }
 
 .box_intro_text {
-    width: 354px;
+    width: 100%;
     height: auto;
     position: relative;
     left: 20px;
@@ -35,21 +37,24 @@ a {
 }
 
 .box_nombreTiendaGeneral {
-    position: sticky;
+    margin: 0%;
     background-color: #00669F;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
     width: 100%;
     height: 60px;
-    left: 0;
-    top: 0px;
+    position: sticky;
     z-index: 10;
+
+}
+
+.box_logoTienda {
+    margin: 0;
 }
 
 .box_logoTienda {
     position: relative;
-    bottom: 15px;
-    left: 15px;
-    display: inline-block;
+    bottom: 0px;
+    display: block;
     color: blueviolet;
     background-image: url(../img/logo_tienda.png);
     background-repeat: no-repeat;
@@ -71,11 +76,10 @@ a {
 }
 
 .box_footer {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 50px;
-    bottom: 0px;
-    right: 0;
+    top: 100px;
     background-color: #00669F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -84,7 +88,7 @@ a {
     color: #FFF9F9;
     text-align: center;
     position: relative;
-    top: 5px;
+    top: 15px;
 }
 
 .box_footer_logoGithub {

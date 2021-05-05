@@ -18,9 +18,9 @@
         </div>
         <nav class="box_card_nav">
             <ul class="nav">
-                <li>Contacto</li>
-                <li>Registrarme </li>
-                <li>Ingresar</li>
+                <li><a href="./contacto.html"> Contacto</a></li>
+                <li><a href="./register.html"> Registrarme</a> </li>
+                <li><a href="./login.html"> Ingresar</a></li>
             </ul>
         </nav>
     </header>
@@ -31,47 +31,51 @@
             <p>Agregá tu personaje favorito completando las opciones.</p>
 
             <form action="">
+                <div class="contenedor_columns"></div>
                 <div class="columna_iz">
                     <div class="box_input box_input_nombre">
-                        <label for="nombre">Nombre</label>
+                        <label for="nombre" class="input-title">*Nombre</label><br>
                         <input id="nombre" type="text" name="nombre" />
                     </div>
                     <div class="box_input box_input_fecha">
-                        <label for="fecha">Fecha</label>
+                        <label for="fecha" class="input-title">Fecha</label><br>
                         <input id="fecha" type="date" name="fecha" min="1950-01-01" max="2030-01-01" />
                     </div>
                     <div class="box_input box_input_descripcion">
-                        <textarea name="descripcion" class="descripcion" placeholder="Descripción" rows="10">
-                    Descripción</textarea>
+                        <textarea name="descripcion" class="descripcion" placeholder="Descripción" rows="13">
+                            Descripción</textarea>
                     </div>
                 </div>
                 <div class="columna_der">
                     <div class="box_input box_input_especie">
-                        <label for="especie">Especie</label>
+                        <label for="especie" class="input-title">*Especie</label>
                         <select name="especie" id="especie">
-                            <option value="0">Selección</option>
+                            <option value="" disabled selected hidden>Especie</option>
+                            <option value="deidad">Deidad</option>
+                            <option value="humano">Humano</option>
                             <option value="1">Cyborg</option>
                             <option value="2">Alien</option>
                             <option value="3">Mutante</option>
                         </select>
                     </div>
 
+
                     <div class="box_input box_input_foto">
-                        <label for="foto">Agregar Foto</label>
+                        <label for="foto" class="input-title">Agregar Foto</label> <br>
                         <input id="foto" type="file" name="foto" />
                     </div>
 
                     <div class="box_input box_input_poderes">
-                        <label for="poderes">Poderes</label>
+                        <label for="poderes" class="input-title">Poderes</label>
                         <fieldset>
                             <input id="poderes1" type="checkbox" name="poderes" value="Volar" />
-                            <label for="poderes1">Volar</label>
+                            <label for="poderes1">Volar</label><br>
                             <input id="poderes2" type="checkbox" name="poderes" value="SuperInteligencia" />
-                            <label for="poderes2">SuperInteligencia</label>
+                            <label for="poderes2">SuperInteligencia</label><br>
                             <input id="poderes3" type="checkbox" name="poderes" value="Vista de rashoo láser" />
-                            <label for="poderes3">Vista de rashoo láser</label>
+                            <label for="poderes3">Vista de rashoo láser</label><br>
                             <input id="poderes4" type="checkbox" name="poderes" value="Billetera gorda" />
-                            <label for="poderes4">Billetera gorda</label>
+                            <label for="poderes4">Billetera gorda</label><br>
                         </fieldset>
                     </div>
 
@@ -83,8 +87,8 @@
                         <label for="villano">Villano/ Villana</label>
                     </div>
                 </div>
-                <div class="box_bottom">
-                    <button type="submit">Añadir</button>
+                <div>
+                    <button type="submit" class="box_bottom">Añadir</button>
                 </div>
             </form>
         </div>

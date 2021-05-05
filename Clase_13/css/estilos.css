@@ -70,11 +70,9 @@ footer {
 }
 
 section>div {
-
     display: flex;
-
-
-
+    flex-direction: row;
+    align-items: center;
 }
 
 h2 {
@@ -90,7 +88,7 @@ h2 {
 .card {
     border-radius: 20px;
     padding: 20px;
-    width: 90%;
+    width: 50%;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px #ccc;
     margin: 20px 10px;
@@ -187,10 +185,21 @@ footer ul {
 
 /*** Responsive */
 
-@media (min-width:769px)AND (max-width:1279px) {}
+@media (min-width:769px) {
+    #card-section>div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contacto,
+    .formulario {
+        padding: 30px;
+    }
+
+}
 
 /*Smartphone grandes*/
-@media (min-width:400px) AND (max-width:768px) {
+@media (min-width:200px) AND (max-width:768px) {
 
     section,
     footer {
