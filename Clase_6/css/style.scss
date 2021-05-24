@@ -1,0 +1,88 @@
+$color-primary: #DB9011;
+$color-secondary:#1F558F;
+$color-third:#8F661F;
+$color-black:#000;
+$color-base01:beige;
+$color-base02:white;
+$color-negrita:#1F558F;
+$color-links:#012142;
+
+body {
+    color: $color-black;
+    background-color: $color-base01;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.banner {
+    background-image: url(../img/lemon-pie2.jpg);
+    background-size: cover;
+    height: 343px;
+    width: auto;
+    color: $color-base02;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.negrita {
+    color: $color-secondary;
+    font-style: normal;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: $color-links;
+    font-style: oblique;
+    font-weight: 700;
+
+}
+
+
+h3 {
+    font-style: italic;
+    color: $color-primary;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', sans-serif;
+
+}
+
+h2,
+.icons {
+    color: $color-third;
+    font-size: 30px;
+}
+
+
+
+.banner_final {
+    background-image: url(../img/niños-cocina-motivacion.jpg);
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.banner_final_mensaje {
+    margin-left: 400px;
+    color: $color-secondary;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800;
+    font-family: 'Playfair Display', sans-serif;
+    opacity: 2;
+}
